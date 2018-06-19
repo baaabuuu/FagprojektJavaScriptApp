@@ -1,0 +1,13 @@
+{
+  "name": "angular-ui-docs",
+  "homepage": "https://github.com/angular-ui/angular-ui-docs",
+  "_release": "ceaa075751",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ceaa075751544186fe15f2c5c2efaa9343e8cdeb"
+  },
+  "_source": "https://github.com/angular-ui/angular-ui-docs.git",
+  "_target": "*",
+  "_originalSource": "angular-ui/angular-ui-docs"
+}

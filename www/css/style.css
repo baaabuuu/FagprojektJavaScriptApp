@@ -1,1 +1,71 @@
 /* Empty. Add your own CSS if you like */
+.has-header {
+    margin-top: 20px;
+}
+.has-subheader {
+    margin-top: 20px;
+}
+.bar-header {
+    margin-top: 20px;
+}
+.bar-subheader {
+    margin-top: 20px;
+}
+
+ion-spinner * {
+    position: fixed;
+    z-index: 999;
+    height: 100vh !important;
+    width: 100vw !important;
+    overflow: show;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+ion-spinner > svg {
+    width: 100vw !important;
+    height: 100vh !important;
+}
+.spinnerCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; <- Horizontal align
+    align-items: center; <- Vertical align
+    height: 100%;
+}
+.bar-footer{
+    height:45px;
+    padding-left: 2.5px;
+    padding-top: 2.5px;
+}
+.chip {
+    display: inline-block;
+    width: calc(100vw / 3 - 3px);
+    padding: 10px 25px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -15px;
+    height: 38px;
+    width: 40px;
+    border-radius: 50%;
+}
+.special {
+    color: black !important;
+    border: 1px solid black !important;
+    padding: 2px !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+}
+#lineChart {
+    border: 1px solid black;
+    height: 180px;
+    width: 94vw;
+}
